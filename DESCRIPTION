@@ -1,0 +1,13 @@
+Package: cp.package
+Title: Random Sample and Distribution Generator
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Chace",
+           family = "Paulson",
+           role = c("aut", "cre"),
+           email = "paulson.chace@example.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Creates random samples for four different distributions. Generates plots of histograms for random samples for four different distributions.
+License: What license it uses
+Encoding: UTF-8
+LazyData: true
