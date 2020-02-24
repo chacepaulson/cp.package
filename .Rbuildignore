@@ -1,2 +1,4 @@
 ^cp\.package\.Rproj$
 ^\.Rproj\.user$
+^README\.Rmd$
+^LICENSE\.md$
