@@ -28,27 +28,29 @@ You can install the released version of cp.package from [CRAN](https://CRAN.R-pr
 install.packages("cp.package")
 ```
 
-## Example
-
-This is a basic example which shows you how to solve a common problem:
-
-```{r example}
+```{r}
 library(cp.package)
-## basic example code
 ```
 
-What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
 
-```{r cars}
-summary(cars)
+## Random Number Generation 
+
+Generate n number of random numbers from a given distribution. Distribution options include normal, binomial, t, and F. 
+
+Example: 
+
+```{r}
+random_gen("normal", 3)
 ```
 
-You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date.
+## Plot Generator for Random Numbers
 
-You can also embed plots, for example:
+Generate histogram plot from n number of random numbers from a given distribution. Distribution options include normal, binomial, t, and F. 
 
-```{r pressure, echo = FALSE}
-plot(pressure)
+Example: 
+
+```{r}
+random_plot("normal", 500)
 ```
 
-In that case, don't forget to commit and push the resulting figure files, so they display on GitHub!
+
