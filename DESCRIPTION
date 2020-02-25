@@ -15,4 +15,7 @@ Suggests:
     spelling
 Language: en-US
 Imports: 
-    ggplot2
+    ggplot2,
+    stats,
+    stringr
+RoxygenNote: 7.0.2
